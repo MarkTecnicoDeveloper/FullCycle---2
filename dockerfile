@@ -15,3 +15,4 @@ COPY --from=builder /go/src/app/app .
 COPY --from=builder /go/src/app/index.html .
 
 CMD ["./app"]
+#CMD ["go","run","."]

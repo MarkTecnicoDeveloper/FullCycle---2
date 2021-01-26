@@ -1,6 +1,6 @@
 package main
 
-import (
+/*import (
 	"html/template"
     "net/http"
 )
@@ -20,4 +20,10 @@ func index(w http.ResponseWriter, r *http.Request) {
 }
 func greeting(str string)string{
 	return str 
+}*/
+
+import "fmt"
+
+func main() {
+	fmt.Println("Code.education Rocks!!!")
 }
